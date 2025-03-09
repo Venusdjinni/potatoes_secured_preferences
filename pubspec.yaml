@@ -1,20 +1,20 @@
 name: potatoes_secured_preferences
 description: "A Preferences service with secure storage capabilities"
-version: 1.0.1
+version: 1.0.2
 homepage: https://www.caelis-tech.studio
 repository: https://github.com/Venusdjinni/potatoes_secured_preferences
 issue_tracker: https://github.com/Venusdjinni/potatoes_secured_preferences/issues
 topics: [potatoes, shared-preferences, storage, secure]
 
 environment:
-  sdk: '>=3.2.3 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: '>=3.5.0 <4.0.0'
+  flutter: '>=3.24.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_secure_storage: ^9.2.2
-  potatoes: ^3.0.2
+  flutter_secure_storage: ^9.2.4
+  potatoes: ^3.0.6
 
 dev_dependencies:
   flutter_test:
